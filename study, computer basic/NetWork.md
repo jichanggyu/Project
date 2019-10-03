@@ -208,3 +208,19 @@ FIN : Finish
 
 
 
+---
+
+
+
+
+
+## Nagle Algorithm
+
+There are two conditions
+
+1.  The data for the first start is unconditional
+2.  MSS  : Start when you get together at the maximum size that can fit into the segment
+3. Start when the ACK of the data that started in the previous step arrive
+
+
+
