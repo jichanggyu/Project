@@ -1,4 +1,4 @@
-# Computer Structure
+# Computer Architecture
 
 
 
