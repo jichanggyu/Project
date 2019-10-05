@@ -88,6 +88,149 @@ p2p 모델 ??
 
 
 
+### Chapter 2
+
+application structure .. there are 3 things
+
+1. client/ server 
+2. peer to peer
+3. hybrid structure ( client / server + peer to peer )
+
+
+
+#### client/server	
+
+- Server
+  - always on host
+  - fixed IP address
+  - server farms
+- clients
+  - communication with the server
+  - intermittent IP
+  - Flow IP( however, Fixed IP also available)
+  - No communication with each client
+
+
+
+#### P2P
+
+- Not always on the host server
+
+
+
+#### hybrid
+
+
+
+
+
+
+### communication with the process
+
+ Process : Run program on the host
+
+ Use IPC, message
+
+
+
+### socket
+
+ Send and receive message to and from Socket
+
+ Process must have identifier for receving message
+
+ The special IP address of the host machine is 32-bit
+
+
+
+#### What application are required for transport services??
+
+- Data loss
+- timing
+- throughput
+- security
+
+
+
+## Internet transport protocol service
+
+1. TCP service
+
+   1. connection-oriented : It needs to set between client and server
+   2. Must be reliable transport
+   3. flow control
+   4. congestion control
+
+2. UDP service
+
+   1. Not reliable data
+
+   ... why did we use UDP..?
+
+   - we need to send big data ( ex .. streaming multimedia )
+
+
+
+## Web // HTTP
+
+**Web pages consist of objects and html files**
+
+
+
+#### HTTP
+
+- hypertext transfer protocol 
+- Use TCP and http is stateless
+
+
+
+
+#### RTT
+
+- One small packet goes from the client to the server and is retured
+
+
+
+## http response state code
+
+#### 200 OK
+
+- sucess request.
+
+#### 301 moved permanently
+
+- move requested object
+
+#### 400 bad Request
+
+- The server don't understand request message
+
+#### 404 Not found
+
+- Not exist the server
+
+#### 505 Http version Not supported
+
+
+
+### Cookie
+
+- state user - server
+
+![1570246755939](D:\Git\project\study, computer basic\1570246755939.png)
+
+
+
+### FTP : File Transfer protocol
+
+
+
+#### DNS : Domain Name System.
+
+
+
+
+
 
 
 
