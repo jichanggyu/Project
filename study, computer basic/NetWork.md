@@ -235,7 +235,10 @@ application structure .. there are 3 things
 
 1. Understanding the Service principle of the transport layer
 2. Learning about protocol in the transport layer over the internet
-3. 
+
+
+
+
 
 
 
